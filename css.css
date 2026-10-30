@@ -1,0 +1,83 @@
+
+.info{
+    margin: 10px 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+     display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(320px,320px));
+    gap: 30px;
+}
+.card{
+    height: 450px;
+position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
+    transition: transform , .3s;
+}
+.card:hover{
+      transform: translateY(-10px);
+      border-bottom: 5px solid #4A90E2;
+}
+img{
+    width: 100%;
+    height: 250px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.tag{
+    position: relative;
+    /* left: 5px; 
+    top: -240px; */
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px; 
+}.tag:hover{
+    background-color: aqua;
+    color: blue;
+    font-size: 30px;
+}
+.gogo{
+    position: relative;
+    right: -270px; 
+    top: -230px;
+    background-color:red;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px; 
+}.gogo:hover{
+    background-color: aqua;
+    color: blue;
+    font-size: 30px;
+} 
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.koko{
+    padding: 30px;
+    color: white;
+}
+.koko:hover{
+    color: wheat;
+    font-size: 40px;
+}
+.kero{
+   background-color: purple;
+   padding: 5px;
+    color: white;  
+}
+.kero:hover{
+    color: wheat;
+    font-size: 20px;
+}
+.pop{
+    text-align: center;
+}
